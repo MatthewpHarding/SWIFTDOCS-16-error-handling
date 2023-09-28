@@ -191,7 +191,7 @@ do {
     y = nil
 }
 //: If someThrowingFunction() throws an error, the value of x and y is nil. Otherwise, the value of x and y is the value that the function returned. Note that x and y are an optional of whatever type someThrowingFunction() returns. Here the function returns an integer, so x and y are optional integers.
-//: 
+//:
 //: Using try? lets you write concise error handling code when you want to handle all errors in the same way. For example, the following code uses several approaches to fetch data, or returns nil if all of the approaches fail.
 
 func fetchDataFromDisk() throws -> Data { return Data() }
@@ -268,5 +268,6 @@ do {
 //:
 //: * callout(Note):
 //:     → You can use a defer statement even when no error handling code is involved.
+
 
 
