@@ -1,6 +1,7 @@
 //: ![Swift](swift-logo.png)
-//: Swift v5.7 [official docs](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html)
-//: # 17. Error Handling
+//: Swift v5.7 | [Swift.org](https://docs.swift.org) | [The official Swift Language Guide](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics)
+//:
+//: # Page 17. Error Handling
 //:
 //:
 //: Error handling is the process of responding to and recovering from error conditions in your program. Swift provides first-class support for throwing, catching, propagating, and manipulating recoverable errors at runtime.
